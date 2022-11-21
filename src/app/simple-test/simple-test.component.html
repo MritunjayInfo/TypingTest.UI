@@ -1,0 +1,5 @@
+<div class="title">
+    <span>Simple Typing Test</span>
+</div>
+<app-test-duration (durationChanged)="currentDuration = $event"></app-test-duration>
+<app-test-box [duration]="currentDuration" [testType]="'simple'"></app-test-box>

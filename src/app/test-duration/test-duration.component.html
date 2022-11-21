@@ -1,0 +1,13 @@
+<div class="test-duration-wrapper">
+    <div class="duration-text text-center fst-italic fw-bold">
+        <span>Select Duration :</span>
+    </div>
+    <div class="duration-values">
+        <div class="form-check form-check-inline" *ngFor="let option of durationOptions;">
+            <label class="form-check-label" for="{{option.id}}">{{option.label}}</label>
+
+            <input type="radio" class="form-check-input" name="{{option.name}}" id="{{option.id}}"
+            value="{{option.value}}" checked="{{option.checked}}" (change)="emitNewDuration($event.target)">
+        </div>
+    </div>
+</div>

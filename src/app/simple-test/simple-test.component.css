@@ -1,0 +1,22 @@
+.title {
+    width:400px;
+    text-align: center;
+    color: var(--Gray900);
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: italic;
+}
+
+app-test-duration {
+    /* border: 1px solid black; */
+    display: block;
+    width: 840px;
+    margin: 2rem auto 1rem;
+}
+
+app-test-box {
+    /* border: 1px solid black; */
+    display: block;
+    width: 840px;
+    margin: 1rem auto;
+}
